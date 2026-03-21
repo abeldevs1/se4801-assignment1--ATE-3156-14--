@@ -4,11 +4,11 @@ import com.shopwave.model.Product;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.boot.data.jpa.test.autoconfigure.DataJpaTest;
 
 import java.math.BigDecimal;
 import java.util.List;
-import java.util.Optional;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -34,7 +34,7 @@ public class ProductRepositoryTest {
         p2.setPrice(BigDecimal.valueOf(80.00));
         p2.setStock(50);
 
-        productRepository.saveInBatch(List.of(p1, p2));
+        productRepository.saveAll(List.of(p1, p2));
     }
 
     @Test
