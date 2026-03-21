@@ -1,4 +1,4 @@
-# ShopWave Enterprise Back-End
+# ShopWave Enterprise Assignment
 
 ![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=java)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0.4-brightgreen?style=for-the-badge&logo=spring-boot)
