@@ -30,19 +30,18 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Build the Application
 Navigate to the root directory containing the `pom.xml` and run the Maven package phase to compile the code and build the application:
-```bash
+```
 mvn clean package
 ```
 ### 2. Run the Application
 Start the embedded Tomcat server. The application will be accessible on port 8080:
 
-```Bash
+```
 mvn spring-boot:run
 ```
 ### 3. Run the Test Suite
 Execute the automated unit and integration tests across the Web, Service, and Repository layers to ensure system stability:
 ```
-Bash
 mvn clean test
 ```
 ### Academic Integrity & AI Declaration
